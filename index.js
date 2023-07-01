@@ -58,5 +58,5 @@ function itemsFormat(items){
   return final
 }
 
-//var recipe = prompt("What recipe would you like to retrieve? ");
-getItems('https://www.hellofresh.com/recipes/sheet-pan-italian-organic-beef-meatloaves-649c8afbd54520eb5aba9c1b');
+var recipe = prompt("What recipe would you like to retrieve? ");
+getItems(recipe);
